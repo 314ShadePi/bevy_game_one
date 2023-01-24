@@ -381,7 +381,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "bevy_game_template"
+name = "bevy_game_one"
 version = "0.1.0"
 dependencies = [
  "bevy",
