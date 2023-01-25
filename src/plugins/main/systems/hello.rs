@@ -1,3 +1,3 @@
 pub fn hello() {
-    println!("Hello from ExamplePlugin!");
+    println!("Hello from Main!");
 }
