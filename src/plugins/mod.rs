@@ -1,1 +1,1 @@
-pub(crate) mod example_plugin;
+pub(crate) mod main;
