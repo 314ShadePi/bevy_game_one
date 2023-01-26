@@ -1,4 +1,4 @@
 use bevy::prelude::*;
 
 #[derive(Component)]
-pub struct PlayerId(i8);
+pub struct PlayerId(pub i8);

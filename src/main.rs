@@ -1,11 +1,10 @@
 mod components;
-mod entities;
 mod plugins;
 mod resources;
 mod systems;
 
-use crate::plugins::main::Main;
 use bevy::prelude::*;
+use crate::plugins::main::Main;
 
 fn main() {
     App::new()
