@@ -14,7 +14,7 @@ impl Plugin for Main {
             TimerMode::Repeating,
         )))
         .add_startup_system(systems::hello::hello)
-        .add_startup_system(systems::add_player::add_player)
+        .add_startup_system(systems::add_player::add_players)
         .add_system(systems::hello_players::hello_players);
     }
 }
