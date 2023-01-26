@@ -3,8 +3,8 @@ mod plugins;
 mod resources;
 mod systems;
 
-use bevy::prelude::*;
 use crate::plugins::main::Main;
+use bevy::prelude::*;
 
 fn main() {
     App::new()
